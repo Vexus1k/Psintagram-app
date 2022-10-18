@@ -17,7 +17,6 @@ export class BreedsListComponent implements OnInit {
     this.breedsService.getAllBreeds().subscribe((res: readDataFromObject) => {
       this.breedsList = Object.keys(res['message'])
     })
-    console.log(this.breedsList)
   }
 
   setActuallyBreed(){

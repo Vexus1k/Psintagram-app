@@ -22,7 +22,6 @@ export class BreedInfoComponent implements OnInit {
         this.disabledBreedButton = false
         this.breedName = res
         this.breedsService.getImageFromBreed(res).subscribe((res: readDataFromObject) => {this.imageSrc = res['message']})
-        console.log(this.imageSrc)
       }
     })
   }
