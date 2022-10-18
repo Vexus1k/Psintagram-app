@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import {BreedsService} from "../../services/breeds.service";
 import {readDataFromObject} from "../../models/global-interfaces";
-
 
 
 @Component({
