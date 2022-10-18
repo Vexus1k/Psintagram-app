@@ -10,7 +10,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./breed-info.component.css']
 })
 export class BreedInfoComponent implements OnInit {
-  imageSrc: string = "../../assets/photos/mystery-dog.jpg";
+  imageSrc: string = "https://www.dogstrust.ie/sponsor/_media/mystery-dog/133330dog-gallery.dog-profile-mobile-mystery-1.jpg";
   breedName: string = "????????";
   disabledBreedButton: boolean = true;
 
