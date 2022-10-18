@@ -1,0 +1,7 @@
+.custom-container{
+  max-width: 800px;
+  background-color: rgb(88,88,88, 0.55);
+  backdrop-filter: blur(16px);
+}
+
+

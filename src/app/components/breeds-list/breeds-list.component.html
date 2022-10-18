@@ -1,0 +1,5 @@
+<select class="form-select form-select-sm" aria-label=".form-select example" (change)="setActuallyBreed()" [(ngModel)]="actuallyBreed" >
+  <option selected disabled>Open this select menu</option>
+  <option *ngFor="let breedName of breedsList" [value]=breedName>{{ breedName | titlecase }}</option>
+</select>
+

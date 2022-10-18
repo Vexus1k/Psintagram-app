@@ -1,0 +1,18 @@
+@media (max-width: 320px){
+  .form-select-sm {
+    padding-top: 0.15rem!important;
+    padding-bottom: 0.15rem!important;
+    padding-left: 0.4rem!important;
+    font-size: 0.8rem!important;
+    border-radius: 0.25rem!important;
+  }
+}
+@media (max-width: 576px) and (min-width: 320px){
+  .form-select-sm {
+    padding-top: 0.2rem!important;
+    padding-bottom: 0.2rem!important;
+    padding-left: 0.45rem!important;
+    font-size: 0.825rem!important;
+    border-radius: 0.25rem!important;
+  }
+}

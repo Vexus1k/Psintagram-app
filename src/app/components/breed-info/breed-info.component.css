@@ -1,0 +1,24 @@
+@media (max-width: 320px){
+  .custom-size{
+    font-size: .9rem;
+  }
+  .custom-size-breedName{
+    font-size: .75rem;
+  }
+}
+@media (max-width: 576px) and (min-width: 320px){
+  .custom-size{
+    font-size: .96rem;
+  }
+  .custom-size-breedName{
+    font-size: .875rem;
+  }
+}
+@media (min-width: 1600px){
+  .custom-size{
+    font-size: 1.07rem;
+  }
+  .custom-size-breedName{
+    font-size: 1.01rem;
+  }
+}

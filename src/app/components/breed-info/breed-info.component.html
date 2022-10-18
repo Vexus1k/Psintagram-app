@@ -1,0 +1,8 @@
+<div class="row">
+  <img class="img-fluid p-0 pb-3 pb-sm-4" [src]="imageSrc">
+</div>
+<div class="row pt-2 pt-sm-4">
+  <h6 class="p-0 text-white custom-size">Przeczytaj więcej o tej rasie psa na wikipedii:</h6>
+  <p class="p-0 text-white custom-size-breedName" (click)="openInfoAboutBreed()"
+     >{{ breedName | titlecase }}</p>
+</div>
